@@ -1,0 +1,12 @@
+authors:
+Adriano Miranda Seoane - adriano.miranda@udc.es,
+Sara Micol Ferraina - sara.micol.ferraina@udc.es
+
+Execution example:
+
+python3 encode.py dom01.txt domain.lp
+clingo 0 tents.lp domain.lp
+python3 decode.py tents.lp domain.lp
+python3 display.py tents.lp domain.lp drawtents.lp
+
+There are more examples to try in the folder "examples"
